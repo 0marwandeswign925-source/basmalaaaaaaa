@@ -1,0 +1,251 @@
+body {
+    background: #B18DDF ;
+    font-family: "Tajawal", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 100, 150, 0.3);
+}
+
+.card h2 {
+    color: #ff2b7f;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+button {
+    background: #ff2b7f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.card {
+            background: white;
+            padding: 15px;
+            border-radius: 25px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        video, img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        p {
+    margin-top: 10px;          /* المسافة فوق الكلام */
+    margin-bottom: 20px;       /* مسافة بين الكلام والبوكسات */
+    color: #122AF7;
+    font-weight: bold;
+    text-align: center;        /* يخلي الكلام في النص */
+    font-size: 12px;
+    position: relative;        /* مهم عشان z-index يشتغل */
+    z-index: 2;                /* يخلي الكلام فوق shimmer و stars */
+}
+
+.vid{
+    background: #B18DDF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* يخلي كل حاجة تحت بعض */
+  align-items: center;    /* يخليهم ف النص */
+  width: 100%;
+  gap: 20px;              /* مسافة بينهم */
+}
+
+.img, .vid {
+  width: 90%;             /* تخلي العرض مظبوط ومش كبير */
+  height: auto;
+  display: block;         /* يخلي كل عنصر ياخد سطر لوحده */
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 80%;
+    max-width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 100, 150, 0.3);
+}
+
+.card h2 {
+    color: #ff2b7f;
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.7;
+}
+
+button {
+    background: #ff2b7f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.card {
+            background: white;
+            padding: 15px;
+            border-radius: 25px;
+            margin: 20px auto;
+            width: 90%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        video, img {
+            width: 100%;
+            border-radius: 20px;
+        }
+
+        p {
+            margin-top: 10px;
+            color: #F71298;
+           font-weight: bold;
+           text-align: center;
+           font-size: 12px;
+        }
+
+.vid{
+    background: #B18DDF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* يخلي كل حاجة تحت بعض */
+  align-items: center;    /* يخليهم ف النص */
+  width: 100%;
+  gap: 20px;              /* مسافة بينهم */
+}
+
+.img, .vid {
+  width: 90%;             /* تخلي العرض مظبوط ومش كبير */
+  height: auto;
+  display: block;         /* يخلي كل عنصر ياخد سطر لوحده */
+}
+        /* تخصيص بسيط لحقول الإدخال */
+        .input-group {
+            position: relative;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 15px;
+            border: 1px solid #bbb;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .toggle-btn {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            color: #ff2b7f;
+        }
+        /* ===== Flip Boxes Style (Namespaced) ===== */
+.flip-wrapper {
+    display: flex;
+    flex-direction: column;   /* 👈 يخليهم تحت بعض */
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.flip-box {
+    width: 160px;
+    height: 200px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-box.active .flip-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* الوجه الأمامي */
+.flip-front {
+    background: #ff2b7f;
+    color: white;
+}
+
+/* الوجه الخلفي */
+.flip-back {
+    background: #8e44ad;
+    color: white;
+    transform: rotateY(180deg);
+}
